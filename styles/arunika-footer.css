@@ -1,0 +1,79 @@
+footer {
+  background-color:  rgb(240, 239, 240);
+}
+
+.footer-container{
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-between;
+  padding-left: 30px;
+}
+
+.footer-middle {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-right {
+  padding-right: 30px;
+}
+
+.footer-text {
+  font-family: overpass;
+  font-size: clamp(14px, 2vw, 1rem);
+  font-weight: 600;
+  color:  rgb(11, 2, 77);
+}
+
+.footer-tagline {
+  font-family: overpass;
+  font-weight: 600;
+  color:  rgb(11, 2, 77);
+  font-size: clamp(16px, 10vw, 10rem);
+  padding-top: 350px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.socmed {
+  font-family: overpass;
+  font-weight: bold;
+  padding: 7px 15px;
+  border-radius: 13px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(11, 2, 77);
+}
+
+.back-to-top {
+  font-family: overpass;
+  font-size: clamp(16px, 5vw, 10rem);
+  color:rgb(11, 2, 77);
+  text-align: right;
+  text-decoration: underline;
+  vertical-align: top;
+}
+
+.floating-button {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  background-color: rgb(11, 2, 77);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 20px;
+  font-family: overpass;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  
+}
