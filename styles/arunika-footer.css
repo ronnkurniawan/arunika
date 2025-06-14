@@ -45,13 +45,45 @@ footer {
   text-decoration: underline;
 }
 
+.social-media {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+@media (min-width: 500px) and (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-left, .footer-middle, .footer-right {
+    padding: 0;
+    text-align: center;
+  }
+  
+  .footer-tagline {
+    padding-top: 20px;
+  }
+}
+
 .socmed {
   font-family: overpass;
+  color: --primary-color;
   font-weight: bold;
   padding: 7px 15px;
   border-radius: 13px;
   margin-bottom: 10px;
   border: 1px solid rgb(11, 2, 77);
+}
+
+.socmed:hover {
+  color: white;
+  cursor: pointer;
+  transform: scale(1.1);
+  background-color: rgb(11, 2, 77);
+  border: 1px solid lightgray;
 }
 
 .back-to-top {
@@ -61,6 +93,10 @@ footer {
   text-align: right;
   text-decoration: underline;
   vertical-align: top;
+}
+
+.back-to-top:hover {
+  cursor: pointer;
 }
 
 .floating-button {
@@ -75,5 +111,19 @@ footer {
   font-size: 1.2rem;
   font-weight: bold;
   cursor: pointer;
+  
+}
+
+.alamat {
+  font-family: overpass;
+  font-size: clamp(14px, 2vw, 1rem);
+  font-weight: 600;
+  color:  rgb(11, 2, 77);
+}
+
+.whatsapp:hover, .email:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  text-decoration: underline;
   
 }

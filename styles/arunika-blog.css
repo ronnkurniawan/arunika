@@ -3,7 +3,7 @@
 .blog-header {
   margin-left: 30px;
   margin-right: 30px;
-  border-bottom: 1px solid rgb(11, 2, 77);
+  border-bottom: 1px solid lightgray;
   padding-bottom: 10px;
 }
 
@@ -33,8 +33,28 @@
   object-position: top;
 }
 
-@media (min-width: 320px) and (max-width: 800px) {
+@media (min-width: 320px) and (max-width: 1000px) {
   .blog-image {
+    height: 400px;
+  }
+}
+
+.blog-image2 {
+  width: 100%;
+  height: 350px;
+  border-radius: 13px;
+  object-fit: cover;
+  object-position: top;
+}
+
+@media (min-width: 1001px) and (max-width: 1200px) {
+  .blog-image2 {
+    height: 200px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 1000px) {
+  .blog-image2 {
     height: 200px;
   }
 }
@@ -50,6 +70,12 @@
   border-radius: 13px;
 }
 
+@media (min-width: 320px) and (max-width: 1000px) {
+  .main-blog-container {
+    grid-template-columns: 1fr;
+  }
+}
+
 .blog-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -63,12 +89,35 @@
   background-color: rgb(255, 255, 255);
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
+  border: 1px solid lightgray;
 }
 
-@media (min-width: 320px) and (max-width: 800px) {
+@media (min-width: 750px) and (max-width: 1000px) {
   .blog-container {
     grid-template-columns: 1fr 1fr;
   }
+}
+
+@media (min-width: 320px) and (max-width: 749px) {
+  .blog-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
+.main-blog-card {
+  padding: 20px;
+  border-radius: 13px;
+  border: 1px solid lightgray;
+}
+
+.main-blog-card:hover {
+  scale: 1.03;
+  transition: 200ms ease-in-out;
+  box-shadow: 0px 0px 10px rgba(228, 110, 20, 0.8);
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+
 }
 
 .blog-content {
@@ -80,10 +129,23 @@
 
 .blog-card-title {
   font-family: overpass;
-  font-size: clamp(16px, 4vw, 2rem);
+  font-size: clamp(14px, 2vw, 2rem);
   color: rgb(11, 2, 77);
+  margin-bottom: 10px;
 }
 
 .read-more-button {
+  padding: 10px 15px;
   margin-top: 20px;
+  border: 1px solid lightgray;
+  border-radius: 13px;
+}
+
+.read-more-button:hover {
+  background-color: rgb(11, 2, 77);
+  color: white;
+  border: 1px solid rgb(11, 2, 77);
+  cursor: pointer;
+  transition: 500ms ease-in-out;
+  scale: 1.03;
 }
