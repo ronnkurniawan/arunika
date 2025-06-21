@@ -1,5 +1,9 @@
 
-
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
 
 .hero-flex-container {
   display: flex;
@@ -89,6 +93,7 @@
   font-weight: 600;
   line-height: 0.9;
   color: var(--primary-color);
+  word-break: break-word;
 } 
 
 #dynamic-text {
@@ -107,6 +112,7 @@
 
 
 .supergraphic {
+  max-width: 100%;
   width: 400px;
 }
 
