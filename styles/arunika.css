@@ -394,6 +394,7 @@
   }
 }
 
+/*
 @media (min-width: 320px) and (max-width: 945px) {
   .portfolio-container {
     grid-template-columns: 1fr 1fr;
@@ -401,6 +402,7 @@
     margin-right: 20px;
   }
 }
+*/
 
 .portfolio-container_card {
   display: flex;
