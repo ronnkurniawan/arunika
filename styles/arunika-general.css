@@ -26,6 +26,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 
@@ -42,7 +43,7 @@ body {
   padding-top: 120px;
   position: relative;
   overflow-x: hidden;
-  overflow-x: hidden;
+
   //background: linear-gradient(90deg, var(--primary-color) 0%, var(--secondary-color) 100%);
 }
 
