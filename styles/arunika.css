@@ -396,7 +396,7 @@
 
 @media (min-width: 320px) and (max-width: 945px) {
   .portfolio-container {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     margin-left: 20px;
     margin-right: 20px;
   }
