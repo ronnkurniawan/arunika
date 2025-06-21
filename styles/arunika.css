@@ -754,6 +754,12 @@ h3 {
   justify-content: space-between;
   margin: 30px 50px;
 }
+@media (min-width: 320px) and (max-width: 650px) {
+  .how-we-works-container {
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+}
 
 .step-section1 {
   display: grid;
