@@ -756,8 +756,8 @@ h3 {
 }
 @media (min-width: 320px) and (max-width: 650px) {
   .how-we-works-container {
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
 
