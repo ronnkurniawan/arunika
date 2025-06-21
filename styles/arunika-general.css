@@ -48,3 +48,6 @@ body {
   //background: linear-gradient(90deg, var(--primary-color) 0%, var(--secondary-color) 100%);
 }
 
+* {
+  outline: 1px solid red;
+}
