@@ -36,6 +36,7 @@ footer {
 .footer-middle {
   padding-left: 20px;
   padding-right: 20px;
+  padding-top: 20px;
 }
 
 .footer-middle {
@@ -93,6 +94,10 @@ footer {
 }
 
 .socmed {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   font-family: overpass;
   color: --primary-color;
   font-weight: bold;
@@ -100,6 +105,12 @@ footer {
   border-radius: 13px;
   margin-bottom: 10px;
   border: 1px solid rgb(11, 2, 77);
+}
+@media (max-width: 500px) {
+  .socmed {
+    font-size: clamp(12px, 2vw, 1rem);
+    padding: 5px 10px;
+  }
 }
 
 .socmed:hover {
