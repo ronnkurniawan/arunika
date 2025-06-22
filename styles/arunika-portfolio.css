@@ -76,8 +76,6 @@
 }
 
 
-
-
 .page-main-image {
   width: 100%;
   height: auto;
@@ -118,29 +116,6 @@
   font-weight: 400;
 }
 
-.random-shape-container {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 500px;
-  background-color: lightblue;
-  align-items: center;
-}
 
-.random-shape {
-  width: 300px;
-  height: 300px;
-  background-color: #fff;
-  clip-path: path("M 10,40 L 70,40 A 10,10 0,0,0 80,30 L 80,10 A 10,10 0,0,1 90,0 L 140,0 A 10,10 0,0,1 150,10 L 150,190 A 10,10 0,0,1 140,200 L 10,200 A 10,10 0,0,1 0,190 L 0,50 A 10,10 0,0,1 10,40 z");
-  position: relative;
-}
 
-.inner-shape {
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  background-color: #d51b1b;
-  top: 0;
-  left: 0;
-}
 
