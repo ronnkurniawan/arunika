@@ -623,7 +623,7 @@ h3 {
 }
 
 .services {
-  margin: 20px;
+  margin: 0 20 20 20px;
   font-family: overpass;
   font-weight: bold;
   font-size: clamp(16px, 4vw, 8rem);
@@ -660,7 +660,7 @@ h3 {
   column-gap: 20px;
   row-gap: 25px;
   padding: 15px 0px;
-  margin: 20px;
+  margin: 0 20 20px;
 }
 
 @media (min-width: 320px) and (max-width: 650px) {
