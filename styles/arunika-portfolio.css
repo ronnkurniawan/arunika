@@ -70,7 +70,7 @@
 
 @media (min-width: 320px) and (max-width: 749px) {
   .portfolio-container {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr ;
     gap: 20px;
   }
 }
