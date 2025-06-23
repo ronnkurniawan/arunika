@@ -389,6 +389,7 @@ h2 {
   background-color:rgb(240, 239, 240);
   margin: 20px;
   border-radius: 13px;
+  position: relative;
 }
 
 @media (min-width: 320px) and (max-width: 650px) {
@@ -490,14 +491,16 @@ h3 {
 .arrow-down {
   position: absolute;
   width: 60px;
-  right: 9px;
+  right: 380px;
+  top: 0px;
+
 }
 
 .supergraphic-aboutus {
   width: 150px;
   position: absolute;
-  bottom: -35px;
-  right: 10px;
+  bottom: -20px;
+  right: 380px;
 }
 
 @media (max-width: 500px) {
